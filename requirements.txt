@@ -1,0 +1,7 @@
+# GSTR-2A Puller Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core dependencies
+requests>=2.31.0        # For API calls
+pandas>=2.0.0          # For Excel handling
+openpyxl>=3.1.0        # Excel file reader/writer
