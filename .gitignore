@@ -1,0 +1,55 @@
+# GSTR-2A Puller .gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Sensitive Configuration
+credentials.py  # Contains actual API credentials - NEVER commit this!
+*.credentials
+
+# Data Files - Contain company information
+input/*.xlsx
+input/*.xls
+input/*.csv
+
+# Ignore EVERYTHING in output folder and subfolders
+output/
+!output/.gitkeep
+
+# Logs
+logs/*.log
+!logs/.gitkeep
+
+# But keep the directories
+!input/.gitkeep
+!output/.gitkeep
+!logs/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Temporary files
+*.tmp
+*.bak
+*.backup
+~$*.xlsx
+~$*.xls
+
+# Test files
+test_*.py
+*_test.py
+*.test.xlsx
