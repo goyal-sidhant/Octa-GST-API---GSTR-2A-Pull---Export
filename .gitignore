@@ -13,7 +13,8 @@ pip-log.txt
 pip-delete-this-directory.txt
 
 # Sensitive Configuration
-credentials.py  # Contains actual API credentials - NEVER commit this!
+credentials.py
+# Contains actual API credentials - NEVER commit this!
 *.credentials
 
 # Data Files - Contain company information
